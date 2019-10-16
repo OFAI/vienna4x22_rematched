@@ -57,7 +57,7 @@
         <staff>1</staff>
         <notations>
           <slur type="start" placement="above" number="1"/>
-          </notations>
+        </notations>
       </note>
     </measure>
     <!--=======================================================-->
@@ -335,6 +335,7 @@
         <type>16th</type>
         <staff>1</staff>
         <notations>
+	  <slur type="start" placement="above" number="2"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -384,6 +385,10 @@
         <staff>1</staff>
         <notations>
           <tied type="start"/>
+	  <slur type="stop" number="2"/>
+	  <articulations>
+            <accent/>
+          </articulations>
         </notations>
       </note>
       <backup>
@@ -1729,13 +1734,14 @@
         <staff>1</staff>
       </note>
       <note id="n140">
-        <grace/>
+        <grace slash="yes"/>
         <pitch>
           <step>A</step>
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
         <voice>1</voice>
+	<type>eighth</type>
         <staff>1</staff>
       </note>
       <note id="n141">
@@ -1968,13 +1974,14 @@
         </notations>
       </note>
       <note id="n150">
-        <grace/>
+        <grace slash="yes"/>
         <pitch>
           <step>A</step>
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
         <voice>1</voice>
+	<type>eighth</type>
         <staff>1</staff>
       </note>
       <note id="n151">
@@ -1999,6 +2006,15 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <dynamics default-x="6.58" default-y="-40.00" relative-y="-40.00">
+            <mf/>
+            </dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="64"/>
+      </direction>
       <note id="n156">
         <pitch>
           <step>B</step>
@@ -2213,6 +2229,15 @@
     </measure>
     <!--=======================================================-->
     <measure number="10">
+      <direction placement="below">
+        <direction-type>
+          <dynamics default-x="6.58" default-y="-40.00" relative-y="-40.00">
+            <p/>
+            </dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="54.44"/>
+      </direction>
       <note id="n165">
         <pitch>
           <step>G</step>
@@ -4852,6 +4877,15 @@
     </measure>
     <!--=======================================================-->
     <measure number="18">
+      <direction placement="below">
+        <direction-type>
+          <dynamics default-x="6.58" default-y="-40.00" relative-y="-40.00">
+            <ff/>
+            </dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="82"/>
+      </direction>
       <note id="n376">
         <pitch>
           <step>G</step>
@@ -5067,6 +5101,15 @@
     </measure>
     <!--=======================================================-->
     <measure number="19">
+      <direction placement="below">
+        <direction-type>
+          <dynamics default-x="6.58" default-y="-40.00" relative-y="-40.00">
+            <mf/>
+            </dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="65"/>
+      </direction>
       <note id="n393">
         <pitch>
           <step>D</step>
@@ -5628,12 +5671,6 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <!-- <backup> -->
-      <!--   <duration>28</duration> -->
-      <!-- </backup> -->
-      <!-- <forward> -->
-      <!--   <duration>4</duration> -->
-      <!-- </forward> -->
       <backup>
         <duration>32</duration>
       </backup>
@@ -5717,6 +5754,15 @@
       <backup>
         <duration>8</duration>
       </backup>
+      <direction placement="below">
+        <direction-type>
+          <dynamics default-x="6.58" default-y="-40.00" relative-y="-40.00">
+            <pp/>
+            </dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="35"/>
+      </direction>
       <note id="n447">
         <pitch>
           <step>E</step>
@@ -5731,41 +5777,29 @@
           <tied type="start"/>
         </notations>
       </note>
-      <!-- <note id="n430a"> -->
-      <!--   <pitch> -->
-      <!--     <step>E</step> -->
-      <!--     <octave>2</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>8</duration> -->
-      <!--   <tie type="stop"/> -->
-      <!--   <voice>8</voice> -->
-      <!--   <type>eighth</type> -->
-      <!--   <staff>2</staff> -->
-      <!--   <notations> -->
-      <!--     <tied type="stop"/> -->
-      <!--   </notations> -->
-      <!-- </note> -->
     </measure>
     <!--=======================================================-->
     <measure number="22">
       <note id="n450">
-        <grace/>
+        <grace slash="yes"/>
         <pitch>
           <step>G</step>
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
         <voice>1</voice>
+	<type>eighth</type>
         <staff>1</staff>
       </note>
       <note id="n451">
-        <grace/>
+        <grace slash="yes"/>
         <pitch>
           <step>F</step>
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
         <voice>1</voice>
+	<type>eighth</type>
         <staff>1</staff>
       </note>
       <note id="n452">
