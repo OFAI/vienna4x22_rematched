@@ -4328,18 +4328,6 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="n323">
-	<chord/>
-        <pitch>
-          <step>A</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <staff>1</staff>
-      </note>
       <note id="n328">
         <pitch>
           <step>A</step>
@@ -4357,18 +4345,6 @@
           <step>F</step>
           <alter>1</alter>
           <octave>4</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <staff>1</staff>
-      </note>
-      <note id="n330">
-	<chord/>
-        <pitch>
-          <step>A</step>
-          <alter>1</alter>
-          <octave>3</octave>
         </pitch>
         <duration>4</duration>
         <voice>2</voice>
@@ -4398,18 +4374,6 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="n337">
-	<chord/>
-        <pitch>
-          <step>A</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>4</voice>
-        <type>16th</type>
-        <staff>1</staff>
-      </note>
       <note id="n342">
         <pitch>
           <step>A</step>
@@ -4429,18 +4393,6 @@
         </pitch>
         <duration>4</duration>
         <voice>2</voice>
-        <type>16th</type>
-        <staff>1</staff>
-      </note>
-      <note id="n344">
-	<chord/>
-        <pitch>
-          <step>A</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>4</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
@@ -4467,18 +4419,6 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="n351">
-	<chord/>
-        <pitch>
-          <step>A</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>4</voice>
-        <type>16th</type>
-        <staff>1</staff>
-      </note>
       <note id="n356">
         <pitch>
           <step>A</step>
@@ -4502,18 +4442,6 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="n358">
-	<chord/>
-        <pitch>
-          <step>A</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>4</voice>
-        <type>16th</type>
-        <staff>1</staff>
-      </note>
       <note id="n363">
         <pitch>
           <step>A</step>
@@ -4533,18 +4461,6 @@
         </pitch>
         <duration>4</duration>
         <voice>2</voice>
-        <type>16th</type>
-        <staff>1</staff>
-      </note>
-      <note id="n365">
-	<chord/>
-        <pitch>
-          <step>A</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>4</voice>
         <type>16th</type>
         <staff>1</staff>
       </note>
@@ -4571,8 +4487,112 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="n372">
+      <backup>
+        <duration>32</duration>
+      </backup>
+      <note id="n323">
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n324">
 	<chord/>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n325">
+	<chord/>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n330">
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n331">
+	<chord/>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n332">
+	<chord/>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n337">
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n338">
+	<chord/>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n339">
+	<chord/>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n344">
         <pitch>
           <step>A</step>
           <alter>1</alter>
@@ -4583,358 +4603,162 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <!-- something goes here -->
-      <!-- <backup> -->
-      <!--   <duration>32</duration> -->
-      <!-- </backup> -->
-      <!-- <note id="n322"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>4</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>3</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n329"> -->
-      <!--   <pitch> -->
-      <!--     <step>F</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>4</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>3</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n336"> -->
-      <!--   <pitch> -->
-      <!--     <step>D</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>4</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>3</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n343"> -->
-      <!--   <pitch> -->
-      <!--     <step>E</step> -->
-      <!--     <octave>4</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>3</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n350"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>4</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>3</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n357"> -->
-      <!--   <pitch> -->
-      <!--     <step>G</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>4</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>3</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n364"> -->
-      <!--   <pitch> -->
-      <!--     <step>E</step> -->
-      <!--     <octave>4</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>3</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n371"> -->
-      <!--   <pitch> -->
-      <!--     <step>F</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>4</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>3</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <backup> -->
-      <!--   <duration>32</duration> -->
-      <!-- </backup> -->
-      <!-- <note id="n323"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>3</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>4</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n330"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>3</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>4</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n337"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>3</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>4</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n344"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>3</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>4</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n351"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>3</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>4</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n358"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>3</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>4</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n365"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>3</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>4</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <!-- <note id="n372"> -->
-      <!--   <pitch> -->
-      <!--     <step>A</step> -->
-      <!--     <alter>1</alter> -->
-      <!--     <octave>3</octave> -->
-      <!--   </pitch> -->
-      <!--   <duration>4</duration> -->
-      <!--   <voice>4</voice> -->
-      <!--   <type>16th</type> -->
-      <!--   <staff>1</staff> -->
-      <!-- </note> -->
-      <backup>
-        <duration>32</duration>
-      </backup>
-      <note id="n324">
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n331">
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n338">
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
       <note id="n345">
+	<chord/>
         <pitch>
           <step>F</step>
           <alter>1</alter>
           <octave>3</octave>
         </pitch>
         <duration>4</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n352">
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n359">
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n366">
-        <pitch>
-          <step>C</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n373">
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <backup>
-        <duration>32</duration>
-      </backup>
-      <note id="n325">
-        <pitch>
-          <step>E</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>6</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n332">
-        <pitch>
-          <step>E</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>6</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n339">
-        <pitch>
-          <step>E</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>6</voice>
+        <voice>4</voice>
         <type>16th</type>
         <staff>2</staff>
       </note>
       <note id="n346">
+	<chord/>
         <pitch>
           <step>E</step>
           <octave>3</octave>
         </pitch>
         <duration>4</duration>
-        <voice>6</voice>
+        <voice>4</voice>
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n353">
+      <note id="n351">
         <pitch>
-          <step>E</step>
+          <step>A</step>
+          <alter>1</alter>
           <octave>3</octave>
         </pitch>
         <duration>4</duration>
-        <voice>6</voice>
+        <voice>4</voice>
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n360">
-        <pitch>
-          <step>E</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>6</voice>
-        <type>16th</type>
-        <staff>2</staff>
-      </note>
-      <note id="n367">
+      <note id="n352">
+	<chord/>
         <pitch>
           <step>F</step>
           <alter>1</alter>
           <octave>3</octave>
         </pitch>
         <duration>4</duration>
-        <voice>6</voice>
+        <voice>4</voice>
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n374">
+      <note id="n353">
+	<chord/>
         <pitch>
           <step>E</step>
           <octave>3</octave>
         </pitch>
         <duration>4</duration>
-        <voice>6</voice>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n358">
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n359">
+	<chord/>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n360">
+	<chord/>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n365">
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n367">
+	<chord/>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n368">
+	<chord/>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n372">
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n373">
+	<chord/>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
+        <type>16th</type>
+        <staff>2</staff>
+      </note>
+      <note id="n374">
+	<chord/>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>4</voice>
         <type>16th</type>
         <staff>2</staff>
       </note>
@@ -5005,9 +4829,9 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n368">
+      <note id="n366">
         <pitch>
-          <step>E</step>
+          <step>C</step>
           <octave>3</octave>
         </pitch>
         <duration>4</duration>
@@ -5202,32 +5026,28 @@
         <duration>32</duration>
         <voice>4</voice>
         <type>half</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
-      <backup>
-        <duration>32</duration>
-      </backup>
       <note id="n380">
+	<chord/>
         <pitch>
           <step>G</step>
           <alter>1</alter>
           <octave>3</octave>
         </pitch>
         <duration>32</duration>
-        <voice>5</voice>
+        <voice>4</voice>
         <type>half</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
-      <backup>
-        <duration>32</duration>
-      </backup>
       <note id="n381">
+	<chord/>
         <pitch>
           <step>E</step>
           <octave>3</octave>
         </pitch>
         <duration>32</duration>
-        <voice>6</voice>
+        <voice>4</voice>
         <type>half</type>
         <staff>2</staff>
       </note>
