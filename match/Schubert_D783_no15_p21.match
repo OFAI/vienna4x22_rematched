@@ -8,7 +8,7 @@ info(midiClockUnits,4000).
 info(midiClockRate,500000).
 info(keySignature,[F min]).
 info(timeSignature,[3/4]).
-snote(n1-1,[C,n],5,0:1,0,1/4+3/8,-1,1.5,[staff1])-note(0,[C,n],5,17980,27150,33760,107).
+snote(n1-1,[C,n],5,0:3,0,1/4+3/8,-1,1.5,[staff1])-note(0,[C,n],5,17980,27150,33760,107).
 snote(n6-1,[C,n],3,1:1,0,1/4,0,1,[staff2])-note(1,[C,n],3,23830,24860,24860,91).
 snote(n8-1,[B,b],3,1:2,0,1/4,1,2,[staff2])-note(2,[B,b],3,28330,29230,33760,87).
 snote(n7-1,[E,n],4,1:2,0,1/4,1,2,[staff2])-note(3,[E,n],4,28330,29060,33760,85).
