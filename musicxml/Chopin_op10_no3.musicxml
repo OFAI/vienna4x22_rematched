@@ -1227,12 +1227,12 @@
     </measure>
     <!--=======================================================-->
     <measure number="6">
-      <!-- <direction placement="below"> -->
-      <!--   <direction-type> -->
-      <!--     <wedge type="crescendo" number="7"/> -->
-      <!--     </direction-type> -->
-      <!--     <staff>1</staff> -->
-      <!-- </direction> -->
+      <direction placement="below">
+        <direction-type>
+          <wedge type="crescendo" number="7"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n71a">
         <pitch>
           <step>F</step>
@@ -1260,18 +1260,18 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <!-- <direction placement="below"> -->
-      <!--   <direction-type> -->
-      <!--     <wedge type="stop" number="7"/> -->
-      <!--     </direction-type> -->
-      <!--     <staff>1</staff> -->
-      <!-- </direction> -->
-      <!-- <direction placement="below"> -->
-      <!--   <direction-type> -->
-      <!--     <wedge type="diminuendo" number="8" default-y="-84.30"/> -->
-      <!--     </direction-type> -->
-      <!--     <staff>1</staff> -->
-      <!-- </direction> -->
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="7"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="8" default-y="-84.30"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n90">
         <pitch>
           <step>G</step>
@@ -1294,12 +1294,12 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
-      <!-- <direction placement="below"> -->
-      <!--   <direction-type> -->
-      <!--     <wedge type="stop" number="8"/> -->
-      <!--     </direction-type> -->
-      <!--     <staff>1</staff> -->
-      <!-- </direction> -->
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="8"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n97">
         <pitch>
           <step>E</step>
