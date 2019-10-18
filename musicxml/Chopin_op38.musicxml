@@ -3411,6 +3411,9 @@
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="start" number="1" placement="below"/>
+        </notations>
       </note>
       <note id="n274">
         <pitch>
@@ -3859,6 +3862,9 @@
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <note id="n301">
         <pitch>
@@ -3870,6 +3876,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="start" number="1" placement="below"/>
+        </notations>
       </note>
       <note id="n306">
         <pitch>
@@ -4129,6 +4138,9 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="6"/>
+        </notations>
       </note>
       <direction placement="below">
         <direction-type>
@@ -4153,6 +4165,9 @@
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="3" placement="above"/>
+        </notations>
       </note>
       <note id="n343">
         <pitch>
@@ -4296,6 +4311,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <note id="n342">
         <pitch>
@@ -4307,6 +4325,9 @@
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="start" number="2" placement="below"/>
+        </notations>
       </note>
       <note id="n346">
         <pitch>
@@ -5688,6 +5709,9 @@
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="3"/>
+        </notations>
       </note>
       <note id="n470">
         <pitch>
@@ -5700,6 +5724,9 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="4" placement="above"/>
+        </notations>
       </note>
       <backup>
         <duration>48</duration>
@@ -7259,6 +7286,9 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="4"/>
+        </notations>
       </note>
       <direction placement="below">
         <direction-type>
@@ -7277,6 +7307,9 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="above"/>
+        </notations>
       </note>
       <backup>
         <duration>32</duration>
@@ -7375,6 +7408,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="stop" number="2"/>
+        </notations>
       </note>
       <note id="n597">
         <pitch>
@@ -7387,6 +7423,9 @@
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="start" number="2" placement="below"/>
+        </notations>
       </note>
       <note id="n599">
         <pitch>
@@ -7659,6 +7698,9 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <direction placement="below">
         <direction-type>
@@ -7683,6 +7725,9 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="3" placement="above"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -8065,6 +8110,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="stop" number="2"/>
+        </notations>
       </note>
       <direction placement="below">
         <direction-type>
@@ -8228,6 +8276,9 @@
         <dot/>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="start" number="2" placement="below"/>
+        </notations>
       </note>
       <note id="n655">
         <pitch>
@@ -8479,6 +8530,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="stop" number="2"/>
+        </notations>
       </note>
       <direction placement="below">
         <direction-type>
@@ -8676,6 +8730,9 @@
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="start" number="2" placement="below"/>
+        </notations>
       </note>
       <note id="n691">
         <pitch>
@@ -8939,6 +8996,9 @@
       	<type>eighth</type>
       	<stem>down</stem>
         <staff>2</staff>
+        <notations>
+	  <slur type="stop" number="2"/>
+        </notations>
       </note>
       <note id="n726">
         <grace/>
@@ -9199,6 +9259,9 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="3"/>
+        </notations>
       </note>
       <direction placement="below">
         <direction-type>
