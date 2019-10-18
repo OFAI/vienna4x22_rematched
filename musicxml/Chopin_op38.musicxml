@@ -40,14 +40,14 @@
       </attributes>
       <direction placement="below">
         <direction-type>
-          <words default-x="-39.76" relative-y="20.00" font-weight="normal" font-size="12">sotto voce</words>
+          <words font-weight="normal" font-size="12">sotto voce</words>
           </direction-type>
         <staff>1</staff>
         <sound dynamics="54.44"/>
       </direction>
       <direction placement="above">
         <direction-type>
-          <words default-x="-39.76" relative-y="20.00" font-weight="bold" font-size="12">Andantino</words>
+          <words font-weight="bold" font-size="12">Andantino</words>
           </direction-type>
         <staff>1</staff>
         <sound tempo="72"/>
@@ -3256,6 +3256,12 @@
 	  <slur type="stop" number="5"/>
         </notations>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n268">
         <pitch>
           <step>C</step>
@@ -3632,9 +3638,21 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="20">
+      <direction placement="below">
+        <direction-type>
+          <wedge type="crescendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n292">
         <pitch>
           <step>A</step>
@@ -3875,9 +3893,21 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="21">
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n313">
         <pitch>
           <step>E</step>
@@ -4100,6 +4130,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <direction placement="below">
         <direction-type>
           <dynamics><pp/></dynamics>
@@ -4889,6 +4925,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n403">
         <pitch>
           <step>B</step>
@@ -5045,6 +5087,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n414">
         <pitch>
           <step>C</step>
@@ -6229,6 +6277,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="crescendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n516">
         <pitch>
           <step>G</step>
@@ -6415,6 +6469,18 @@
           <tied type="start"/>
         </notations>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n524a">
         <pitch>
           <step>C</step>
@@ -6582,6 +6648,12 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="35">
@@ -7188,6 +7260,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n594">
         <pitch>
           <step>C</step>
@@ -7349,6 +7427,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n608">
         <pitch>
           <step>G</step>
@@ -7360,6 +7444,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n611">
         <pitch>
           <step>A</step>
@@ -7570,6 +7660,18 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n625">
         <pitch>
           <step>C</step>
@@ -7735,6 +7837,18 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n636">
         <pitch>
           <step>A</step>
@@ -7952,6 +8066,12 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="42">
@@ -7967,6 +8087,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n659">
         <pitch>
           <step>A</step>
@@ -8147,6 +8273,12 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="43">
@@ -8162,6 +8294,12 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n675">
         <pitch>
           <step>A</step>
@@ -8342,6 +8480,12 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="44">
@@ -8352,7 +8496,6 @@
 	<direction-type>
 	  <dashes type="start" number="1"/>
 	</direction-type>
-	<staf>1</staf>
       </direction>
       <note id="n683">
         <pitch>
