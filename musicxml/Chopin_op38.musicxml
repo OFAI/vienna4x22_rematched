@@ -8793,72 +8793,66 @@
         <duration>48</duration>
       </backup>
       <note id="n719">
-	<grace/>
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
-        <!-- <duration>8</duration> -->
+        <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n727">
-	<grace/>
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
-        <!-- <duration>8</duration> -->
+        <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n728">
-	<grace/>
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
-        <!-- <duration>8</duration> -->
+        <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n729">
-	<grace/>
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
-        <!-- <duration>8</duration> -->
+        <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n730">
-	<grace/>
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
-        <!-- <duration>8</duration> -->
+        <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n731">
-	<grace/>
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
-        <!-- <duration>8</duration> -->
+        <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
