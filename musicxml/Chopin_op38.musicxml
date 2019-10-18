@@ -3,6 +3,14 @@
   "-//Recordare//DTD MusicXML 3.1 Partwise//EN"
   "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise>
+  <identification>
+    <encoding>
+      <software>Partitura 0.2.0</software>
+      <supports element="accidental" type="yes"/>
+      <supports element="beam" type="yes"/>
+      <supports element="stem" type="yes"/>
+      </encoding>
+    </identification>
   <part-list>
     <score-part id="P1">
       <part-name>Chopin_op38</part-name>
@@ -38,6 +46,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n3">
@@ -48,6 +57,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n5">
@@ -58,6 +68,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -71,7 +82,7 @@
         <duration>8</duration>
         <voice>4</voice>
         <type>eighth</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
       <note id="n4">
         <pitch>
@@ -81,7 +92,7 @@
         <duration>16</duration>
         <voice>4</voice>
         <type>quarter</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
       <note id="n6">
         <pitch>
@@ -91,7 +102,7 @@
         <duration>8</duration>
         <voice>4</voice>
         <type>eighth</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
     </measure>
     <!--=======================================================-->
@@ -104,6 +115,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n9">
@@ -114,6 +126,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n11">
@@ -124,6 +137,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n13">
@@ -134,6 +148,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -147,7 +162,7 @@
         <duration>16</duration>
         <voice>4</voice>
         <type>quarter</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
       <note id="n10">
         <pitch>
@@ -157,7 +172,7 @@
         <duration>8</duration>
         <voice>4</voice>
         <type>eighth</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
       <note id="n12">
         <pitch>
@@ -167,7 +182,7 @@
         <duration>16</duration>
         <voice>4</voice>
         <type>quarter</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
       <note id="n14">
         <pitch>
@@ -177,7 +192,7 @@
         <duration>8</duration>
         <voice>4</voice>
         <type>eighth</type>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
     </measure>
     <!--=======================================================-->
@@ -190,6 +205,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n19">
@@ -200,6 +216,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n23">
@@ -210,6 +227,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n27">
@@ -220,6 +238,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -233,6 +252,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n20">
@@ -243,6 +263,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n24">
@@ -254,6 +275,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n28">
@@ -265,6 +287,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -278,7 +301,8 @@
         <duration>16</duration>
         <voice>4</voice>
         <type>quarter</type>
-        <staff>1</staff>
+        <stem>up</stem>
+        <staff>2</staff>
       </note>
       <note id="n21">
         <pitch>
@@ -288,7 +312,8 @@
         <duration>8</duration>
         <voice>4</voice>
         <type>eighth</type>
-        <staff>1</staff>
+        <stem>up</stem>
+        <staff>2</staff>
       </note>
       <note id="n25">
         <pitch>
@@ -298,7 +323,8 @@
         <duration>16</duration>
         <voice>4</voice>
         <type>quarter</type>
-        <staff>1</staff>
+        <stem>up</stem>
+        <staff>2</staff>
       </note>
       <note id="n29">
         <pitch>
@@ -308,7 +334,8 @@
         <duration>8</duration>
         <voice>4</voice>
         <type>eighth</type>
-        <staff>1</staff>
+        <stem>up</stem>
+        <staff>2</staff>
       </note>
       <backup>
         <duration>48</duration>
@@ -321,6 +348,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n22">
@@ -331,6 +359,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n26">
@@ -341,6 +370,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n30">
@@ -351,6 +381,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -364,7 +395,8 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+	<dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n35">
@@ -375,6 +407,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n36">
@@ -385,6 +418,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n40">
@@ -395,6 +429,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n44">
@@ -405,6 +440,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -419,6 +455,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n37">
@@ -430,6 +467,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n41">
@@ -440,6 +478,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n45">
@@ -450,6 +489,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -496,6 +536,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n39">
@@ -506,6 +547,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n43">
@@ -516,6 +558,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n46">
@@ -527,6 +570,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
     </measure>
@@ -540,6 +584,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n50">
@@ -550,6 +595,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n54">
@@ -560,6 +606,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n58">
@@ -570,6 +617,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -596,6 +644,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n51">
@@ -606,6 +655,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n55">
@@ -616,6 +666,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n60">
@@ -627,6 +678,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -673,6 +725,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n53">
@@ -683,6 +736,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n57">
@@ -693,6 +747,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n62">
@@ -703,6 +758,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -716,6 +772,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -727,6 +784,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n74">
@@ -738,6 +796,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -775,6 +834,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n68">
@@ -786,6 +846,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n71">
@@ -796,6 +857,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n75">
@@ -806,6 +868,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -842,6 +905,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n69">
@@ -852,6 +916,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n73">
@@ -862,6 +927,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n77">
@@ -873,6 +939,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -886,6 +953,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n82">
@@ -896,6 +964,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n86">
@@ -906,6 +975,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n90">
@@ -917,6 +987,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -930,6 +1001,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n83">
@@ -940,6 +1012,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n87">
@@ -950,6 +1023,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n91">
@@ -961,6 +1035,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -1017,6 +1092,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n85">
@@ -1028,6 +1104,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n89">
@@ -1038,6 +1115,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n93">
@@ -1048,6 +1126,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -1061,6 +1140,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -1072,6 +1152,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n99">
@@ -1082,6 +1163,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n103">
@@ -1092,6 +1174,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n107">
@@ -1103,6 +1186,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -1116,6 +1200,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n100">
@@ -1126,6 +1211,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n104">
@@ -1136,6 +1222,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n108">
@@ -1147,6 +1234,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -1203,6 +1291,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n102">
@@ -1214,6 +1303,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n106">
@@ -1224,6 +1314,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n110">
@@ -1234,6 +1325,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -1247,6 +1339,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -1258,6 +1351,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n116">
@@ -1268,6 +1362,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n120">
@@ -1278,6 +1373,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -1305,6 +1401,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n117">
@@ -1315,6 +1412,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n121">
@@ -1325,6 +1423,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n125">
@@ -1335,6 +1434,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -1393,6 +1493,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n119">
@@ -1403,6 +1504,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n123">
@@ -1413,6 +1515,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n127">
@@ -1423,6 +1526,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -1436,6 +1540,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -1448,6 +1553,7 @@
         <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
         <notations>
@@ -1492,6 +1598,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n132">
@@ -1502,6 +1609,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n137">
@@ -1512,6 +1620,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n141">
@@ -1523,6 +1632,7 @@
         <tie type="start"/>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
         <notations>
           <tied type="start"/>
@@ -1582,6 +1692,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n134">
@@ -1592,6 +1703,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n139">
@@ -1602,6 +1714,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n143">
@@ -1612,6 +1725,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -1626,6 +1740,7 @@
         <tie type="stop"/>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
         <notations>
           <tied type="stop"/>
@@ -1639,6 +1754,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n151">
@@ -1649,6 +1765,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n156">
@@ -1659,6 +1776,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -1722,6 +1840,7 @@
         <tie type="stop"/>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
         <notations>
           <tied type="stop"/>
@@ -1735,6 +1854,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n153">
@@ -1745,6 +1865,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n158">
@@ -1755,6 +1876,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -1811,6 +1933,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n150">
@@ -1821,6 +1944,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n155">
@@ -1831,6 +1955,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n160">
@@ -1841,6 +1966,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -1854,6 +1980,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -1865,6 +1992,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n167">
@@ -1875,6 +2003,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n172">
@@ -1885,6 +2014,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n177">
@@ -1895,6 +2025,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -1943,6 +2074,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n169">
@@ -1953,6 +2085,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n174">
@@ -1963,6 +2096,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n178">
@@ -1973,6 +2107,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2019,6 +2154,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n171">
@@ -2029,6 +2165,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n176">
@@ -2039,6 +2176,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n179">
@@ -2050,6 +2188,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
     </measure>
@@ -2063,6 +2202,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n183">
@@ -2073,6 +2213,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n187">
@@ -2083,6 +2224,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n191">
@@ -2093,6 +2235,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2119,6 +2262,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n184">
@@ -2129,6 +2273,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n188">
@@ -2139,6 +2284,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n193">
@@ -2150,6 +2296,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2196,6 +2343,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n186">
@@ -2206,6 +2354,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n190">
@@ -2216,6 +2365,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n195">
@@ -2226,6 +2376,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -2239,6 +2390,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -2250,6 +2402,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n207">
@@ -2261,6 +2414,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2298,6 +2452,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n201">
@@ -2309,6 +2464,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n204">
@@ -2319,6 +2475,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n208">
@@ -2329,6 +2486,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2365,6 +2523,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n202">
@@ -2375,6 +2534,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n206">
@@ -2385,6 +2545,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n210">
@@ -2396,6 +2557,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -2409,6 +2571,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n215">
@@ -2419,6 +2582,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n219">
@@ -2429,6 +2593,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n223">
@@ -2440,6 +2605,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2453,6 +2619,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n216">
@@ -2463,6 +2630,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n220">
@@ -2473,6 +2641,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n224">
@@ -2484,6 +2653,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2540,6 +2710,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n218">
@@ -2551,6 +2722,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n222">
@@ -2561,6 +2733,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n226">
@@ -2571,6 +2744,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -2584,6 +2758,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -2595,6 +2770,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n232">
@@ -2605,6 +2781,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n236">
@@ -2615,6 +2792,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n240">
@@ -2626,6 +2804,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2639,6 +2818,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n233">
@@ -2649,6 +2829,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n237">
@@ -2659,6 +2840,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n241">
@@ -2670,6 +2852,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2726,6 +2909,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n235">
@@ -2737,6 +2921,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n239">
@@ -2747,6 +2932,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n243">
@@ -2757,6 +2943,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -2770,6 +2957,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -2781,6 +2969,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n249">
@@ -2791,6 +2980,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n253">
@@ -2801,6 +2991,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -2828,6 +3019,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n250">
@@ -2838,6 +3030,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n254">
@@ -2848,6 +3041,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n258">
@@ -2858,6 +3052,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -2916,6 +3111,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n252">
@@ -2926,6 +3122,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n256">
@@ -2936,6 +3133,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n260">
@@ -2946,6 +3144,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -2959,6 +3158,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -2971,6 +3171,7 @@
         <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
         <notations>
@@ -2988,6 +3189,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n265">
@@ -2998,6 +3200,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n269">
@@ -3008,6 +3211,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n272">
@@ -3018,6 +3222,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3074,6 +3279,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n267">
@@ -3084,6 +3290,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n271">
@@ -3094,6 +3301,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n274">
@@ -3104,6 +3312,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -3118,6 +3327,7 @@
         <tie type="stop"/>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
         <notations>
           <tied type="stop"/>
@@ -3131,15 +3341,16 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n282">
-        <grace/>
+        <grace slash="yes"/>
         <pitch>
           <step>B</step>
           <octave>4</octave>
         </pitch>
-        <voice>1</voice>
+        <voice>1</voice><stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n283">
@@ -3150,6 +3361,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n287">
@@ -3161,6 +3373,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3207,6 +3420,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n280">
@@ -3217,6 +3431,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n285">
@@ -3227,6 +3442,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n289">
@@ -3237,6 +3453,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3273,6 +3490,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n281">
@@ -3283,6 +3501,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n286">
@@ -3293,6 +3512,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n291">
@@ -3303,6 +3523,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -3316,6 +3537,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n297">
@@ -3326,6 +3548,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n302">
@@ -3336,6 +3559,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n307">
@@ -3346,6 +3570,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3402,6 +3627,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n299">
@@ -3412,6 +3638,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n304">
@@ -3422,6 +3649,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n309">
@@ -3432,6 +3660,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3499,6 +3728,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n301">
@@ -3509,6 +3739,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n306">
@@ -3519,6 +3750,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n312">
@@ -3529,6 +3761,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -3542,6 +3775,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n317">
@@ -3552,6 +3786,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n321">
@@ -3560,7 +3795,7 @@
           <step>D</step>
           <octave>5</octave>
         </pitch>
-        <voice>1</voice>
+        <voice>1</voice><stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n322">
@@ -3571,6 +3806,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n326">
@@ -3581,6 +3817,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3627,6 +3864,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n319">
@@ -3637,6 +3875,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n324">
@@ -3647,6 +3886,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n328">
@@ -3657,6 +3897,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3693,6 +3934,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n320">
@@ -3703,6 +3945,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n325">
@@ -3713,6 +3956,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n330">
@@ -3723,6 +3967,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -3736,6 +3981,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -3747,6 +3993,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n343">
@@ -3757,6 +4004,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3783,6 +4031,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n336">
@@ -3793,6 +4042,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n340">
@@ -3803,6 +4053,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n344">
@@ -3813,6 +4064,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3869,6 +4121,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n338">
@@ -3879,6 +4132,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n342">
@@ -3889,6 +4143,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n346">
@@ -3899,6 +4154,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -3912,6 +4168,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n351">
@@ -3922,6 +4179,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n355">
@@ -3932,6 +4190,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n359">
@@ -3942,6 +4201,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -3955,6 +4215,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n352">
@@ -3965,6 +4226,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n356">
@@ -3975,6 +4237,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n360">
@@ -3985,6 +4248,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4041,6 +4305,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n354">
@@ -4051,6 +4316,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n358">
@@ -4061,6 +4327,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n362">
@@ -4071,6 +4338,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
     </measure>
@@ -4084,6 +4352,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -4095,6 +4364,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n368">
@@ -4105,6 +4375,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n372">
@@ -4115,6 +4386,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n376">
@@ -4125,6 +4397,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4138,6 +4411,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n369">
@@ -4148,6 +4422,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n373">
@@ -4158,6 +4433,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n377">
@@ -4168,6 +4444,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4224,6 +4501,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n371">
@@ -4234,6 +4512,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n375">
@@ -4244,6 +4523,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n379">
@@ -4254,6 +4534,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
     </measure>
@@ -4267,6 +4548,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -4278,6 +4560,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n385">
@@ -4288,6 +4571,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n389">
@@ -4298,6 +4582,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -4325,6 +4610,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n386">
@@ -4335,6 +4621,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n390">
@@ -4345,6 +4632,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n394">
@@ -4355,6 +4643,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4411,6 +4700,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n388">
@@ -4421,6 +4711,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n392">
@@ -4431,6 +4722,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n396">
@@ -4441,6 +4733,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -4454,6 +4747,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -4466,6 +4760,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -4514,6 +4809,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n401">
@@ -4524,6 +4820,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n405">
@@ -4534,6 +4831,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n408">
@@ -4545,6 +4843,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4558,6 +4857,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n402">
@@ -4568,6 +4868,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n406">
@@ -4578,6 +4879,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n409">
@@ -4588,6 +4890,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -4601,6 +4904,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n414">
@@ -4611,6 +4915,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n419">
@@ -4621,6 +4926,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n423">
@@ -4631,6 +4937,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4657,6 +4964,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n416">
@@ -4667,6 +4975,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n420">
@@ -4677,6 +4986,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n424">
@@ -4687,6 +4997,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4743,6 +5054,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n418">
@@ -4753,6 +5065,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n422">
@@ -4763,6 +5076,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n426">
@@ -4773,6 +5087,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -4786,6 +5101,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -4797,6 +5113,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n432">
@@ -4807,6 +5124,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n436">
@@ -4817,6 +5135,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n440">
@@ -4827,6 +5146,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4841,6 +5161,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n433">
@@ -4852,6 +5173,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n437">
@@ -4862,6 +5184,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n441">
@@ -4872,6 +5195,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -4918,6 +5242,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n435">
@@ -4928,6 +5253,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n439">
@@ -4938,6 +5264,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n442">
@@ -4949,6 +5276,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
     </measure>
@@ -4962,6 +5290,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n446">
@@ -4972,6 +5301,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n450">
@@ -4982,6 +5312,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n454">
@@ -4992,6 +5323,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5018,6 +5350,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n447">
@@ -5028,6 +5361,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n451">
@@ -5038,6 +5372,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n456">
@@ -5049,6 +5384,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5095,6 +5431,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n449">
@@ -5105,6 +5442,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n453">
@@ -5115,6 +5453,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n458">
@@ -5125,6 +5464,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -5138,6 +5478,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -5149,6 +5490,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n470">
@@ -5160,6 +5502,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5197,6 +5540,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n464">
@@ -5208,6 +5552,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n467">
@@ -5218,6 +5563,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n471">
@@ -5228,6 +5574,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5264,6 +5611,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n465">
@@ -5274,6 +5622,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n469">
@@ -5284,6 +5633,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n473">
@@ -5295,6 +5645,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -5308,6 +5659,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n478">
@@ -5318,6 +5670,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n482">
@@ -5328,6 +5681,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n486">
@@ -5339,6 +5693,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5352,6 +5707,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n479">
@@ -5362,6 +5718,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n483">
@@ -5372,6 +5729,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n487">
@@ -5383,6 +5741,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5439,6 +5798,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n481">
@@ -5450,6 +5810,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n485">
@@ -5460,6 +5821,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n489">
@@ -5470,6 +5832,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -5483,6 +5846,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -5494,6 +5858,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n495">
@@ -5504,6 +5869,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n499">
@@ -5514,6 +5880,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n503">
@@ -5525,6 +5892,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5538,6 +5906,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n496">
@@ -5548,6 +5917,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n500">
@@ -5558,6 +5928,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n504">
@@ -5569,6 +5940,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5625,6 +5997,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n498">
@@ -5636,6 +6009,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n502">
@@ -5646,6 +6020,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n506">
@@ -5656,6 +6031,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -5669,6 +6045,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -5680,6 +6057,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n512">
@@ -5690,6 +6068,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n516">
@@ -5700,6 +6079,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -5727,6 +6107,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n513">
@@ -5737,6 +6118,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n517">
@@ -5747,6 +6129,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n521">
@@ -5757,6 +6140,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5815,6 +6199,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n515">
@@ -5825,6 +6210,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n519">
@@ -5835,6 +6221,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n523">
@@ -5845,6 +6232,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -5859,6 +6247,7 @@
         <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
+        <stem>up</stem>
         <staff>1</staff>
         <notations>
           <tied type="start"/>
@@ -5873,6 +6262,7 @@
         <tie type="stop"/>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
         <notations>
           <tied type="stop"/>
@@ -5886,6 +6276,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5899,6 +6290,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n528">
@@ -5909,6 +6301,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n531">
@@ -5919,6 +6312,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n535">
@@ -5929,6 +6323,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -5985,6 +6380,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n530">
@@ -5995,6 +6391,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n533">
@@ -6005,6 +6402,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n537">
@@ -6015,6 +6413,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -6028,6 +6427,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n542">
@@ -6038,6 +6438,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n546">
@@ -6048,6 +6449,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n550">
@@ -6058,6 +6460,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -6071,6 +6474,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n543">
@@ -6081,6 +6485,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n547">
@@ -6091,6 +6496,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n551">
@@ -6101,6 +6507,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -6157,6 +6564,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n545">
@@ -6167,6 +6575,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n549">
@@ -6177,6 +6586,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n553">
@@ -6187,6 +6597,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -6200,6 +6611,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6211,6 +6623,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n559">
@@ -6221,6 +6634,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n563">
@@ -6231,6 +6645,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n567">
@@ -6241,6 +6656,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -6254,6 +6670,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n560">
@@ -6264,6 +6681,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n564">
@@ -6274,6 +6692,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n568">
@@ -6284,6 +6703,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -6340,6 +6760,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n562">
@@ -6350,6 +6771,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n566">
@@ -6360,6 +6782,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n570">
@@ -6370,6 +6793,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -6383,6 +6807,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6394,6 +6819,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n576">
@@ -6404,6 +6830,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n580">
@@ -6414,6 +6841,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6452,6 +6880,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n577">
@@ -6462,6 +6891,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n582">
@@ -6472,6 +6902,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n586">
@@ -6482,6 +6913,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -6528,6 +6960,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n579">
@@ -6538,6 +6971,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n584">
@@ -6548,6 +6982,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n587">
@@ -6558,6 +6993,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -6571,6 +7007,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6582,6 +7019,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6620,6 +7058,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n592">
@@ -6630,6 +7069,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n596">
@@ -6641,6 +7081,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n598">
@@ -6652,6 +7093,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -6665,6 +7107,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n593">
@@ -6675,6 +7118,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n597">
@@ -6686,6 +7130,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n599">
@@ -6697,6 +7142,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -6711,6 +7157,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6722,6 +7169,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n608">
@@ -6732,6 +7180,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n611">
@@ -6742,6 +7191,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6780,6 +7230,9 @@
         <type>quarter</type>
         <staff>1</staff>
       </note>
+      <forward>
+	<duration>8</duration>
+      </forward>
       <note id="n615">
         <pitch>
           <step>E</step>
@@ -6801,6 +7254,7 @@
         <duration>12</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6812,6 +7266,7 @@
         <duration>4</duration>
         <voice>3</voice>
         <type>16th</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n609">
@@ -6822,6 +7277,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n613">
@@ -6833,6 +7289,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n616">
@@ -6844,6 +7301,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -6870,6 +7328,7 @@
         <duration>12</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <dot/>
         <staff>2</staff>
       </note>
@@ -6881,6 +7340,7 @@
         <duration>4</duration>
         <voice>5</voice>
         <type>16th</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n610">
@@ -6892,6 +7352,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n614">
@@ -6902,6 +7363,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n618">
@@ -6912,6 +7374,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -6925,6 +7388,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6936,6 +7400,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -6964,6 +7429,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n623">
@@ -6974,6 +7440,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n627">
@@ -6985,6 +7452,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n629">
@@ -6996,6 +7464,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -7022,6 +7491,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n624">
@@ -7032,6 +7502,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n628">
@@ -7043,6 +7514,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n630">
@@ -7054,6 +7526,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -7065,7 +7538,7 @@
           <step>C</step>
           <octave>5</octave>
         </pitch>
-        <voice>1</voice>
+        <voice>1</voice><stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n632">
@@ -7077,6 +7550,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -7088,6 +7562,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>16th</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n640">
@@ -7098,6 +7573,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n643">
@@ -7108,6 +7584,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -7136,6 +7613,9 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
+      <forward>
+	<duration>8</duration>
+      </forward>
       <note id="n644">
         <pitch>
           <step>E</step>
@@ -7167,6 +7647,7 @@
         <duration>12</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -7178,6 +7659,7 @@
         <duration>4</duration>
         <voice>3</voice>
         <type>16th</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n641">
@@ -7188,6 +7670,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n645">
@@ -7199,6 +7682,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n648">
@@ -7210,6 +7694,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -7236,6 +7721,7 @@
         <duration>12</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <dot/>
         <staff>2</staff>
       </note>
@@ -7247,6 +7733,7 @@
         <duration>4</duration>
         <voice>5</voice>
         <type>16th</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n642">
@@ -7258,6 +7745,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n646">
@@ -7268,6 +7756,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n650">
@@ -7278,6 +7767,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -7291,6 +7781,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -7302,6 +7793,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -7339,6 +7831,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n656">
@@ -7349,6 +7842,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n661">
@@ -7360,6 +7854,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n665">
@@ -7371,6 +7866,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -7418,6 +7914,7 @@
         <duration>12</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <dot/>
         <staff>2</staff>
       </note>
@@ -7429,6 +7926,7 @@
         <duration>4</duration>
         <voice>5</voice>
         <type>16th</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n658">
@@ -7439,6 +7937,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n663">
@@ -7449,6 +7948,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n666">
@@ -7459,6 +7959,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -7472,6 +7973,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -7483,6 +7985,7 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <dot/>
         <staff>1</staff>
       </note>
@@ -7520,6 +8023,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n672">
@@ -7530,6 +8034,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n677">
@@ -7541,6 +8046,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n681">
@@ -7552,6 +8058,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -7599,6 +8106,7 @@
         <duration>12</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <dot/>
         <staff>2</staff>
       </note>
@@ -7610,6 +8118,7 @@
         <duration>4</duration>
         <voice>5</voice>
         <type>16th</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n674">
@@ -7620,6 +8129,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n679">
@@ -7630,6 +8140,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n682">
@@ -7640,6 +8151,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -7653,6 +8165,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n687">
@@ -7663,6 +8176,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n692">
@@ -7673,6 +8187,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n696">
@@ -7683,6 +8198,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -7698,6 +8214,9 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
+      <forward>
+	<duration>16</duration>
+      </forward>
       <note id="n697">
         <pitch>
           <step>E</step>
@@ -7719,6 +8238,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n689">
@@ -7730,6 +8250,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n693">
@@ -7740,6 +8261,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n698">
@@ -7751,6 +8273,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -7807,6 +8330,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n691">
@@ -7817,6 +8341,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n695">
@@ -7827,6 +8352,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n700">
@@ -7837,6 +8363,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -7850,6 +8377,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n705">
@@ -7860,6 +8388,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n710">
@@ -7870,6 +8399,7 @@
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n714">
@@ -7880,6 +8410,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -7895,6 +8426,9 @@
         <type>eighth</type>
         <staff>1</staff>
       </note>
+      <forward>
+	<duration>16</duration>
+      </forward>
       <note id="n715">
         <pitch>
           <step>E</step>
@@ -7916,6 +8450,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n707">
@@ -7927,6 +8462,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n711">
@@ -7937,6 +8473,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n716">
@@ -7948,6 +8485,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -8004,6 +8542,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n709">
@@ -8014,6 +8553,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n713">
@@ -8024,6 +8564,7 @@
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n718">
@@ -8034,6 +8575,7 @@
         <duration>8</duration>
         <voice>5</voice>
         <type>eighth</type>
+        <stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -8047,6 +8589,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n727">
@@ -8057,6 +8600,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n728">
@@ -8067,6 +8611,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n729">
@@ -8077,6 +8622,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n730">
@@ -8087,6 +8633,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n731">
@@ -8097,6 +8644,7 @@
         <duration>8</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <backup>
@@ -8117,7 +8665,7 @@
           <step>C</step>
           <octave>4</octave>
         </pitch>
-        <voice>3</voice>
+        <voice>3</voice><stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n721">
@@ -8126,7 +8674,7 @@
           <step>A</step>
           <octave>3</octave>
         </pitch>
-        <voice>3</voice>
+        <voice>3</voice><stem>down</stem>
         <staff>1</staff>
       </note>
       <note id="n723">
@@ -8153,7 +8701,7 @@
           <step>F</step>
           <octave>2</octave>
         </pitch>
-        <voice>5</voice>
+        <voice>5</voice><stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n725">
@@ -8162,7 +8710,7 @@
           <step>F</step>
           <octave>1</octave>
         </pitch>
-        <voice>5</voice>
+        <voice>5</voice><stem>down</stem>
         <staff>2</staff>
       </note>
     </measure>
