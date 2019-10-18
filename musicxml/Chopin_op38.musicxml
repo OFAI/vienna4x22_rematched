@@ -772,8 +772,8 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
+	<dot/>
         <stem>up</stem>
-        <dot/>
         <staff>1</staff>
       </note>
       <note id="n70">
@@ -1140,8 +1140,8 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
+	<dot/>
         <stem>up</stem>
-        <dot/>
         <staff>1</staff>
       </note>
       <note id="n98">
@@ -3350,7 +3350,9 @@
           <step>B</step>
           <octave>4</octave>
         </pitch>
-        <voice>1</voice><stem>up</stem>
+        <voice>1</voice>
+	<type>eight</type>
+	<stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n283">
@@ -3790,12 +3792,14 @@
         <staff>1</staff>
       </note>
       <note id="n321">
-        <grace/>
+        <grace slash="yes"/>
         <pitch>
           <step>D</step>
           <octave>5</octave>
         </pitch>
-        <voice>1</voice><stem>up</stem>
+        <voice>1</voice>
+	<type>eigth</type>
+	<stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n322">
@@ -7533,12 +7537,14 @@
     <!--=======================================================-->
     <measure number="41">
       <note id="n631">
-        <grace/>
+        <grace slash="yes"/>
         <pitch>
           <step>C</step>
           <octave>5</octave>
         </pitch>
-        <voice>1</voice><stem>up</stem>
+        <voice>1</voice>
+	<type>eigth</type>
+	<stem>up</stem>
         <staff>1</staff>
       </note>
       <note id="n632">
@@ -8581,118 +8587,15 @@
     </measure>
     <!--=======================================================-->
     <measure number="46">
-      <note id="n719">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <staff>1</staff>
-      </note>
-      <note id="n727">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <staff>1</staff>
-      </note>
-      <note id="n728">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <staff>1</staff>
-      </note>
-      <note id="n729">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <staff>1</staff>
-      </note>
-      <note id="n730">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <staff>1</staff>
-      </note>
-      <note id="n731">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <staff>1</staff>
-      </note>
-      <backup>
-        <duration>48</duration>
-      </backup>
-      <note id="n720">
+      <note id="n725">
         <grace/>
         <pitch>
           <step>F</step>
-          <octave>4</octave>
+          <octave>1</octave>
         </pitch>
-        <voice>2</voice>
-        <staff>1</staff>
-      </note>
-      <note id="n722">
-        <grace/>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <voice>3</voice><stem>down</stem>
-        <staff>1</staff>
-      </note>
-      <note id="n721">
-        <grace/>
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-        </pitch>
-        <voice>3</voice><stem>down</stem>
-        <staff>1</staff>
-      </note>
-      <note id="n723">
-        <grace/>
-        <pitch>
-          <step>F</step>
-          <octave>3</octave>
-        </pitch>
-        <voice>4</voice>
-        <staff>2</staff>
-      </note>
-      <note id="n724">
-        <grace/>
-        <pitch>
-          <step>C</step>
-          <octave>3</octave>
-        </pitch>
-        <voice>4</voice>
+      	<voice>5</voice>
+      	<type>eighth</type>
+      	<stem>down</stem>
         <staff>2</staff>
       </note>
       <note id="n726">
@@ -8701,17 +8604,265 @@
           <step>F</step>
           <octave>2</octave>
         </pitch>
-        <voice>5</voice><stem>down</stem>
+	<tie type="start"/>
+      	<voice>5</voice>
+      	<type>eighth</type>
+      	<stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
       </note>
-      <note id="n725">
+      <note id="n724">
+        <grace/>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+	<tie type="start"/>
+      	<voice>5</voice>
+      	<type>eighth</type>
+      	<stem>down</stem>
+        <staff>2</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note id="n723">
         <grace/>
         <pitch>
           <step>F</step>
-          <octave>1</octave>
+          <octave>3</octave>
         </pitch>
-        <voice>5</voice><stem>down</stem>
+	<tie type="start"/>
+      	<voice>5</voice>
+      	<type>eighth</type>
+      	<stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note id="n721">
+        <grace/>
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+	<tie type="start"/>
+      	<voice>5</voice>
+      	<type>eighth</type>
+      	<stem>down</stem>
+        <staff>1</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note id="n722">
+        <grace/>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+	<tie type="start"/>
+        <voice>5</voice>
+      	<type>eighth</type>
+      	<stem>down</stem>
+        <staff>1</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note id="n720">
+        <grace/>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+	<tie type="start"/>
+        <voice>5</voice>
+      	<type>eighth</type>
+      	<stem>down</stem>
+        <staff>1</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note id="n720main">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+	<duration>48</duration>
+        <voice>5</voice>
+	<type>half</type>
+	<dot/>
+	<tie type="stop"/>
+	<stem>down</stem>
+        <staff>1</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note id="n722main">
+	<chord/>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+	<duration>48</duration>
+        <voice>5</voice>
+	<type>half</type>
+	<dot/>
+	<tie type="stop"/>
+	<stem>down</stem>
+        <staff>1</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note id="n721main">
+        <chord/>
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+	<duration>48</duration>
+	<voice>5</voice>
+	<type>half</type>
+	<dot/>
+	<tie type="stop"/>
+	<stem>down</stem>
+        <staff>1</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note id="n723main">
+        <chord/>
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+	<duration>48</duration>
+	<voice>5</voice>
+	<type>half</type>
+	<dot/>
+	<tie type="stop"/>
+	<stem>down</stem>
+        <staff>2</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note id="n724main">
+        <chord/>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+	<duration>48</duration>
+	<voice>5</voice>
+	<type>half</type>
+	<dot/>
+	<tie type="stop"/>
+	<stem>down</stem>
+        <staff>2</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note id="n726main">
+        <chord/>
+        <pitch>
+          <step>F</step>
+          <octave>2</octave>
+        </pitch>
+	<duration>48</duration>
+	<tie type="stop"/>
+	<voice>5</voice>
+	<type>half</type>
+	<dot/>
+	<stem>down</stem>
+        <staff>2</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <backup>
+        <duration>48</duration>
+      </backup>
+      <note id="n719">
+	<grace/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <!-- <duration>8</duration> -->
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+      </note>
+      <note id="n727">
+	<grace/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <!-- <duration>8</duration> -->
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+      </note>
+      <note id="n728">
+	<grace/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <!-- <duration>8</duration> -->
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+      </note>
+      <note id="n729">
+	<grace/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <!-- <duration>8</duration> -->
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+      </note>
+      <note id="n730">
+	<grace/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <!-- <duration>8</duration> -->
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+      </note>
+      <note id="n731">
+	<grace/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <!-- <duration>8</duration> -->
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
       </note>
     </measure>
   </part>
