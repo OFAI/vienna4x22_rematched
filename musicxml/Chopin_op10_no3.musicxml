@@ -1608,7 +1608,7 @@
     <measure number="7">
       <direction placement="below">
         <direction-type>
-          <words font-family="FreeSerif" font-size="12" font-style="italic" default-y="-98.87">cresc.</words>
+          <words font-family="FreeSerif" font-size="12" font-style="normal" default-y="-98.87">cresc.</words>
           </direction-type>
         <direction-type>
           <dashes type="start" number="1" default-y="-98.87"/>
@@ -2212,7 +2212,7 @@
       </direction>
       <direction placement="below">
 	<direction-type>
-	  <words default-x="15" default-y="15" font-weight="italic" font-size="9">ritenuto</words>
+	  <words default-x="15" default-y="15" font-weight="normal" font-size="9">ritenuto</words>
 	</direction-type>
 	<direction-type>
 	  <dashes type="start" number="2"/>
@@ -2462,7 +2462,7 @@
       <direction placement="above">
         <direction-type>
           <words default-x="15" relative-y="20"
-		 font-weight="italic" font-size="12">a tempo</words>
+		 font-weight="normal" font-size="12">a tempo</words>
           </direction-type>
         <staff>1</staff>
         <sound tempo="52.5"/>
@@ -5232,7 +5232,7 @@
       <direction placement="above">
         <direction-type>
           <words default-x="15" relative-y="20"
-		 font-weight="italic" font-size="12">a tempo</words>
+		 font-weight="normal" font-size="12">a tempo</words>
           </direction-type>
         <staff>1</staff>
         <sound tempo="52.5"/>
@@ -5252,10 +5252,10 @@
           <alter>1</alter>
           <octave>5</octave>
         </pitch>
-        <duration>8</duration>
+        <duration>16</duration>
         <tie type="start"/>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>quarter</type>
         <staff>1</staff>
         <notations>
           <tied type="start"/>
@@ -5270,11 +5270,10 @@
           <alter>1</alter>
           <octave>5</octave>
         </pitch>
-        <duration>12</duration>
+        <duration>4</duration>
         <tie type="stop"/>
         <voice>1</voice>
-        <type>eighth</type>
-        <dot/>
+        <type>16th</type>
         <staff>1</staff>
         <notations>
           <tied type="stop"/>
@@ -6151,9 +6150,7 @@
       </backup>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-40.00" relative-y="-40.00">
-            <pp/>
-            </dynamics>
+          <dynamics><pp/></dynamics>
           </direction-type>
         <staff>1</staff>
         <sound dynamics="35"/>
