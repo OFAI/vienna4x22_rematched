@@ -40,16 +40,14 @@
       </attributes>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-40.00" relative-y="-40.00">
-            <p/>
-            </dynamics>
+          <dynamics><p/></dynamics>
           </direction-type>
         <staff>1</staff>
         <sound dynamics="54.44"/>
       </direction>
       <direction placement="above">
         <direction-type>
-          <words default-x="-39.76" relative-y="20.00" font-weight="bold" font-size="12">Lento, ma non troppo</words>
+          <words font-weight="bold" font-size="12">Lento, ma non troppo</words>
           </direction-type>
         <staff>1</staff>
         <sound tempo="52.5"/>
