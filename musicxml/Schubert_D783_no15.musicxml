@@ -3,6 +3,14 @@
   "-//Recordare//DTD MusicXML 3.1 Partwise//EN"
   "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise>
+  <identification>
+    <encoding>
+      <software>Partitura 0.2.0</software>
+      <supports element="accidental" type="yes"/>
+      <supports element="beam" type="yes"/>
+      <supports element="stem" type="yes"/>
+    </encoding>
+  </identification>
   <part-list>
     <score-part id="P1">
       <part-name>Schubert_D783_no15</part-name>
@@ -30,6 +38,13 @@
           <line>4</line>
         </clef>
       </attributes>
+       <direction placement="below">
+        <direction-type>
+          <dynamics><mf/></dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="72"/>
+      </direction>
       <note id="n1-1">
         <pitch>
           <step>C</step>
@@ -59,6 +74,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
+	  <slur type="start" number="1" placement="above"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -84,6 +100,7 @@
         <type>quarter</type>
         <staff>1</staff>
         <notations>
+	  <slur type="stop" number="1"/>
           <tied type="start"/>
         </notations>
       </note>
@@ -169,6 +186,15 @@
     </measure>
     <!--=======================================================-->
     <measure number="3">
+      <direction placement="below">
+        <direction-type>
+          <words font-weight="normal">cresc.</words>
+          </direction-type>
+        <direction-type>
+          <dashes type="start" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+      </direction>
       <note id="n5a-1">
         <pitch>
           <step>C</step>
@@ -181,6 +207,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
+	  <slur type="start" number="1" placement="above"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -206,6 +233,7 @@
         <type>quarter</type>
         <staff>1</staff>
         <notations>
+	  <slur type="stop" number="1"/>
           <tied type="start"/>
         </notations>
       </note>
@@ -288,9 +316,21 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <dashes type="stop" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="4">
+      <direction placement="below">
+        <direction-type>
+          <wedge type="crescendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n15a-1">
         <pitch>
           <step>C</step>
@@ -303,6 +343,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
+	   <slur type="start" number="1" placement="above"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -326,6 +367,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -406,18 +450,33 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="5">
-      <note id="n35-1">
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
+      <note id="n33-1">
         <grace/>
         <pitch>
-          <step>E</step>
-          <alter>-1</alter>
+          <step>C</step>
           <octave>5</octave>
         </pitch>
         <voice>1</voice>
+	<type>16th</type>
         <staff>1</staff>
+        <notations>
+          <slur type="start" number="1" placement="below"/>
+        </notations>
       </note>
       <note id="n34-1">
         <grace/>
@@ -427,15 +486,18 @@
           <octave>5</octave>
         </pitch>
         <voice>1</voice>
+	<type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="n33-1">
+      <note id="n35-1">
         <grace/>
         <pitch>
-          <step>C</step>
+          <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
         </pitch>
         <voice>1</voice>
+	<type>16th</type>
         <staff>1</staff>
       </note>
       <note id="n36-1">
@@ -448,6 +510,10 @@
         <voice>1</voice>
         <type>half</type>
         <staff>1</staff>
+        <notations>
+          <slur type="stop" number="1"/>
+	  <slur type="start" number="2" placement="above"/>
+        </notations>
       </note>
       <note id="n37-1">
         <pitch>
@@ -461,6 +527,7 @@
         <staff>1</staff>
         <notations>
           <tied type="start"/>
+	  <slur type="stop" number="2"/>
         </notations>
       </note>
       <backup>
@@ -542,9 +609,24 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="6">
+      <direction placement="below">
+        <direction-type>
+          <words font-style="normal">decresc.</words>
+          </direction-type>
+        <direction-type>
+          <dashes type="start" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+      </direction>
       <note id="n37a-1">
         <pitch>
           <step>C</step>
@@ -557,6 +639,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
+	  <slur type="start" number="1" placement="above"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -580,6 +663,10 @@
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+	  <tied type="start"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -673,6 +760,9 @@
         <type>quarter</type>
         <dot/>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="above"/>
+        </notations>
       </note>
       <note id="n56-1">
         <pitch>
@@ -694,6 +784,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -776,9 +869,22 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <dashes type="stop" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="8">
+      <direction placement="below">
+        <direction-type>
+          <dynamics><pp/></dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="35"/>
+      </direction>
       <note id="n65-1">
         <pitch>
           <step>C</step>
@@ -789,6 +895,9 @@
         <type>quarter</type>
         <dot/>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="above"/>
+        </notations>
       </note>
       <note id="n66-1">
         <pitch>
@@ -800,6 +909,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <note id="n67-1">
         <pitch>
@@ -811,6 +923,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="above"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -907,7 +1022,17 @@
         <voice>1</voice>
         <type>half</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <dynamics><mf/></dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="64"/>
+      </direction>
       <note id="n1-2">
         <pitch>
           <step>C</step>
@@ -962,6 +1087,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
+	  <slur type="start" number="1" placement="above"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -987,6 +1113,7 @@
         <type>quarter</type>
         <staff>1</staff>
         <notations>
+	  <slur type="stop" number="1"/>
           <tied type="start"/>
         </notations>
       </note>
@@ -1072,6 +1199,15 @@
     </measure>
     <!--=======================================================-->
     <measure number="11">
+      <direction placement="below">
+        <direction-type>
+          <words font-weight="normal">cresc.</words>
+          </direction-type>
+        <direction-type>
+          <dashes type="start" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+      </direction>
       <note id="n5a-2">
         <pitch>
           <step>C</step>
@@ -1084,6 +1220,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
+	  <slur type="start" number="1" placement="above"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -1109,6 +1246,7 @@
         <type>quarter</type>
         <staff>1</staff>
         <notations>
+	  <slur type="stop" number="1"/>
           <tied type="start"/>
         </notations>
       </note>
@@ -1191,9 +1329,21 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <dashes type="stop" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="12">
+      <direction placement="below">
+        <direction-type>
+          <wedge type="crescendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
       <note id="n15a-2">
         <pitch>
           <step>C</step>
@@ -1206,6 +1356,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
+	   <slur type="start" number="1" placement="above"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -1229,6 +1380,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -1309,18 +1463,33 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="13">
-      <note id="n35-2">
+      <direction placement="below">
+        <direction-type>
+          <wedge type="diminuendo" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
+      <note id="n33-2">
         <grace/>
         <pitch>
-          <step>E</step>
-          <alter>-1</alter>
+          <step>C</step>
           <octave>5</octave>
         </pitch>
         <voice>1</voice>
+	<type>16th</type>
         <staff>1</staff>
+        <notations>
+          <slur type="start" number="1" placement="below"/>
+        </notations>
       </note>
       <note id="n34-2">
         <grace/>
@@ -1330,15 +1499,18 @@
           <octave>5</octave>
         </pitch>
         <voice>1</voice>
+	<type>16th</type>
         <staff>1</staff>
       </note>
-      <note id="n33-2">
+      <note id="n35-2">
         <grace/>
         <pitch>
-          <step>C</step>
+          <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
         </pitch>
         <voice>1</voice>
+	<type>16th</type>
         <staff>1</staff>
       </note>
       <note id="n36-2">
@@ -1351,6 +1523,10 @@
         <voice>1</voice>
         <type>half</type>
         <staff>1</staff>
+        <notations>
+          <slur type="stop" number="1"/>
+	  <slur type="start" number="2" placement="above"/>
+        </notations>
       </note>
       <note id="n37-2">
         <pitch>
@@ -1364,6 +1540,7 @@
         <staff>1</staff>
         <notations>
           <tied type="start"/>
+	  <slur type="stop" number="2"/>
         </notations>
       </note>
       <backup>
@@ -1445,9 +1622,24 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge type="stop" number="1"/>
+          </direction-type>
+          <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="14">
+      <direction placement="below">
+        <direction-type>
+          <words font-style="normal">decresc.</words>
+          </direction-type>
+        <direction-type>
+          <dashes type="start" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+      </direction>
       <note id="n37a-2">
         <pitch>
           <step>C</step>
@@ -1460,6 +1652,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
+	  <slur type="start" number="1" placement="above"/>
           <tied type="stop"/>
         </notations>
       </note>
@@ -1483,6 +1676,10 @@
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+	  <tied type="start"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -1576,6 +1773,9 @@
         <type>quarter</type>
         <dot/>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="above"/>
+        </notations>
       </note>
       <note id="n56-2">
         <pitch>
@@ -1597,6 +1797,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -1679,9 +1882,22 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <dashes type="stop" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+      </direction>
     </measure>
     <!--=======================================================-->
     <measure number="16">
+      <direction placement="below">
+        <direction-type>
+          <dynamics><pp/></dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="35"/>
+      </direction>
       <note id="n65-2">
         <pitch>
           <step>C</step>
@@ -1692,6 +1908,9 @@
         <type>quarter</type>
         <dot/>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="above"/>
+        </notations>
       </note>
       <note id="n66-2">
         <pitch>
@@ -1703,6 +1922,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <note id="n67-2">
         <pitch>
@@ -1714,6 +1936,9 @@
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="above"/>
+        </notations>
       </note>
       <backup>
         <duration>24</duration>
@@ -1810,7 +2035,17 @@
         <voice>1</voice>
         <type>half</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <dynamics><p/></dynamics>
+          </direction-type>
+        <staff>1</staff>
+        <sound dynamics="35"/>
+      </direction>
       <note id="n78-1">
         <pitch>
           <step>C</step>
@@ -1821,6 +2056,9 @@
         <type>quarter</type>
         <staff>1</staff>
       </note>
+      <backup>
+	<duration>8</duration>
+      </backup>
       <note id="n79-1">
         <chord/>
         <pitch>
@@ -1829,7 +2067,7 @@
           <octave>4</octave>
         </pitch>
         <duration>8</duration>
-        <voice>1</voice>
+        <voice>2</voice>
         <type>quarter</type>
         <staff>1</staff>
       </note>
@@ -1881,17 +2119,6 @@
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <note id="n85-1">
-        <chord/>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <staff>1</staff>
-      </note>
       <backup>
         <duration>24</duration>
       </backup>
@@ -1906,6 +2133,12 @@
         <type>quarter</type>
         <dot/>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="below"/>
+          <articulations>
+            <accent/>
+          </articulations>
+        </notations>
       </note>
       <note id="n83-1">
         <pitch>
@@ -1916,9 +2149,22 @@
         <voice>2</voice>
         <type>eighth</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
+      </note>
+      <note id="n85-1">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>8</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <staff>1</staff>
       </note>
       <backup>
-        <duration>16</duration>
+        <duration>24</duration>
       </backup>
       <note id="n86-1">
         <pitch>
@@ -2009,31 +2255,10 @@
         <type>half</type>
         <staff>1</staff>
       </note>
-      <note id="n96-1">
-        <grace/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <voice>1</voice>
-        <staff>1</staff>
-      </note>
       <note id="n97-1">
         <pitch>
           <step>C</step>
           <octave>5</octave>
-        </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <staff>1</staff>
-      </note>
-      <note id="n98-1">
-        <chord/>
-        <pitch>
-          <step>A</step>
-          <alter>-1</alter>
-          <octave>4</octave>
         </pitch>
         <duration>8</duration>
         <voice>1</voice>
@@ -2052,6 +2277,9 @@
         <voice>2</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="below"/>
+        </notations>
       </note>
       <note id="n95-1">
         <pitch>
@@ -2062,9 +2290,39 @@
         <voice>2</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
+      </note>
+      <note id="n96-1">
+        <grace slash="yes"/>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <voice>2</voice>
+	<type>eighth</type>
+        <staff>1</staff>
+        <notations>
+	  <slur type="start" number="1" placement="below"/>
+        </notations>
+      </note>
+      <note id="n98-1">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+	  <slur type="stop" number="1"/>
+        </notations>
       </note>
       <backup>
-        <duration>16</duration>
+        <duration>24</duration>
       </backup>
       <note id="n99-1">
         <pitch>

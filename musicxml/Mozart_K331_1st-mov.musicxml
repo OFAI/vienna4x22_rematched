@@ -9,8 +9,8 @@
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="stem" type="yes"/>
-      </encoding>
-    </identification>
+    </encoding>
+  </identification>
   <part-list>
     <score-part id="P1">
       <part-name>Mozart_K331_1st-mov</part-name>
