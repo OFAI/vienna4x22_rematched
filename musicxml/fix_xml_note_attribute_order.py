@@ -1,8 +1,8 @@
 import re
 
 
-fn = './Chopin_op38.musicxml'
-out_fn = './Chopin_op38_rec.musicxml'
+fn = './Chopin_op10_no3.musicxml'
+out_fn = './Chopin_op10_no3_rec.musicxml'
 notes = []
 note_info = False
 with open(fn) as f:
@@ -82,10 +82,10 @@ def parse_notes(note):
         if '<staff>' in l:
             staff.append(l)
 
-        if '        <voice>4</voice>' in voice:
-            print('change staff for voice 4')
-            staff = ['        <staff>2</staff>']
-            stem = ['        <stem>up</stem>']
+        # if '        <voice>4</voice>' in voice:
+        #     print('change staff for voice 4')
+        #     staff = ['        <staff>2</staff>']
+        #     stem = ['        <stem>up</stem>']
 
     out_order = [
         head,
