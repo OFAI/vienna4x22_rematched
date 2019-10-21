@@ -3572,9 +3572,9 @@
       <backup>
         <duration>48</duration>
       </backup>
-      <note id="n276">
+      <note id="n277">
         <pitch>
-          <step>C</step>
+          <step>A</step>
           <octave>3</octave>
         </pitch>
         <duration>16</duration>
@@ -3583,6 +3583,9 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
+      <forward>
+	<duration>24</duration>
+      </forward>
       <note id="n290">
         <pitch>
           <step>E</step>
@@ -3597,16 +3600,16 @@
       <backup>
         <duration>48</duration>
       </backup>
-      <note id="n277">
+      <note id="n276">
         <pitch>
-          <step>A</step>
+          <step>C</step>
           <octave>3</octave>
         </pitch>
         <duration>16</duration>
         <voice>5</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <staff>1</staff>
+        <staff>2</staff>
       </note>
       <note id="n281">
         <pitch>
@@ -4066,6 +4069,9 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
+      <forward>
+	<duration>24</duration>
+      </forward>
       <note id="n329">
         <pitch>
           <step>G</step>
@@ -7526,6 +7532,9 @@
         <type>16th</type>
         <staff>1</staff>
       </note>
+      <forward>
+	<duration>8</duration>
+      </forward>
       <note id="n612">
         <pitch>
           <step>E</step>
@@ -7536,9 +7545,6 @@
         <type>quarter</type>
         <staff>1</staff>
       </note>
-      <forward>
-	<duration>8</duration>
-      </forward>
       <note id="n615">
         <pitch>
           <step>E</step>
