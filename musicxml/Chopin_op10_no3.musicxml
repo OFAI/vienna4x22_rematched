@@ -743,7 +743,7 @@
       </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="5"/>
+          <wedge type="stop" number="1"/>
           </direction-type>
           <staff>1</staff>
       </direction>
