@@ -242,7 +242,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n4rest">
+      <note id="n4voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -277,7 +277,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n15rest">
+      <note id="n15voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -578,7 +578,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n22rest">
+      <note id="n22voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -613,7 +613,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n35rest">
+      <note id="n35voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -878,7 +878,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n42rest">
+      <note id="n42voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -913,7 +913,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n53rest">
+      <note id="n53voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -1183,7 +1183,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n62rest">
+      <note id="n62voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -1218,7 +1218,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n74rest">
+      <note id="n74voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -1514,7 +1514,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n85rest">
+      <note id="n85voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -1549,7 +1549,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n99rest">
+      <note id="n99voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -1804,7 +1804,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n107rest">
+      <note id="n107voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -1839,7 +1839,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n118rest">
+      <note id="n118voice_overlap">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -2060,7 +2060,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n129rest">
+      <note id="n129voice_overlap">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -2097,7 +2097,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n137rest">
+      <note id="n137voice_overlap">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -2353,7 +2353,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n147rest">
+      <note id="n147voice_overlap">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -2391,7 +2391,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n159rest">
+      <note id="n159voice_overlap">
         <pitch>
           <step>B</step>
           <octave>2</octave>
@@ -2653,7 +2653,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n168rest">
+      <note id="n168voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -2688,7 +2688,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n179rest">
+      <note id="n179voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -2952,7 +2952,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n186rest">
+      <note id="n186voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -2987,7 +2987,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n199rest">
+      <note id="n199voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -3215,7 +3215,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n206rest">
+      <note id="n206voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -3250,7 +3250,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n217rest">
+      <note id="n217voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -3516,7 +3516,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n226rest">
+      <note id="n226voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -3551,7 +3551,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n238rest">
+      <note id="n238voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -3819,7 +3819,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n249rest">
+      <note id="n249voice_overlap">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -3854,7 +3854,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n263rest">
+      <note id="n263voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -4147,7 +4147,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n272rest">
+      <note id="n272voice_overlap">
         <pitch>
           <step>E</step>
           <octave>2</octave>
@@ -4182,7 +4182,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n286rest">
+      <note id="n286voice_overlap">
         <pitch>
           <step>A</step>
           <octave>2</octave>
@@ -4370,7 +4370,7 @@
         <staff>1</staff>
       </note>
       <backup>
-        <duration>16</duration>
+        <duration>12</duration>
       </backup>
       <note id="n297">
         <pitch>
@@ -4469,7 +4469,7 @@
       <backup>
         <duration>32</duration>
       </backup>
-      <note id="n298rest">
+      <note id="n298voice_overlap">
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -4507,7 +4507,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <note id="n311rest">
+      <note id="n311voice_overlap">
         <pitch>
           <step>C</step>
           <alter>1</alter>
@@ -5621,6 +5621,18 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
+      <note id="n411voice_overlap">
+        <pitch>
+          <step>G</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>3</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+      </note>
       <backup>
         <duration>32</duration>
       </backup>
@@ -5839,6 +5851,17 @@
         <pitch>
           <step>C</step>
           <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>3</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+      </note>
+      <note id="n431voice_overlap">
+        <pitch>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>4</duration>
