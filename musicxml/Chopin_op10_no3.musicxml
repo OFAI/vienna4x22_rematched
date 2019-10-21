@@ -2538,6 +2538,9 @@
         <stem>up</stem>
         <staff>1</staff>
       </note>
+      <forward>
+	<duration>8</duration>
+      </forward>
       <note id="n177">
         <pitch>
           <step>D</step>
