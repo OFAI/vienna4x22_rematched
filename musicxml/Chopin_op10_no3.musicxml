@@ -4339,9 +4339,9 @@
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
-        <duration>4</duration>
+        <duration>8</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
       </note>
