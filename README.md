@@ -18,6 +18,5 @@ This dataset includes 22 performances by profesional pianists of 4 classical mus
 
 ## Quick Start
 
-To use the dataset in python we recommed the [partitura package](github.com/CPJKU/partitura).
-The current version of the match files will be supported by the next release of partitura (expected soon). 
-
+To use the dataset in python we recommend the [partitura package](github.com/CPJKU/partitura).
+The current version of the match files is supported by partitura versions >=1.2.0
