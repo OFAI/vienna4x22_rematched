@@ -113,13 +113,13 @@ for piece in PIECES:
         match_sna = match_score.parts[0].note_array()
         match_sna_ids = match_sna['id']
         pd.DataFrame(match_align).to_csv(os.path.join(match_align_dir, f'{piece}_p{perf_i+1:02d}.csv'), index=None)
-        # Test parangonar for old alignments:
-        sdm = pa.AutomaticNoteMatcher()
-        pa_test = os.path.join(match_parangonar_align_dir, f'{piece}_p{perf_i+1:02d}.txt')
-        pred_alignment, f_scores = test_parangonar_wrapper(sdm, match_sna, match_pna, gt_alignment=match_align, compare=True, fp=pa_test)
-        match_parangonar_f_scores[perf_i] = f_scores
-        pa_align_csv = os.path.join(match_parangonar_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
-        pd.DataFrame(pred_alignment).to_csv(pa_align_csv, index=None)
+        # # Test parangonar for old alignments:
+        # sdm = pa.AutomaticNoteMatcher()
+        # pa_test = os.path.join(match_parangonar_align_dir, f'{piece}_p{perf_i+1:02d}.txt')
+        # pred_alignment, f_scores = test_parangonar_wrapper(sdm, match_sna, match_pna, gt_alignment=match_align, compare=True, fp=pa_test)
+        # match_parangonar_f_scores[perf_i] = f_scores
+        # pa_align_csv = os.path.join(match_parangonar_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
+        # pd.DataFrame(pred_alignment).to_csv(pa_align_csv, index=None)
         
         # Check MIDI and MATCH PERFORMANCE equality
         # Count deletions 
@@ -168,43 +168,43 @@ for piece in PIECES:
                     last_note_alignment = {'label': 'match', 'score_id': last_alignment_dict['score_id'], 'performance_id': last_midi_note['id']}
                     # print('Inserting: ', last_note_alignment)
                     match_align.append(last_note_alignment)            
-            if not os.path.isfile(os.path.join(upd_match_align_dir, f'{piece}_{perf_i+1:02d}.csv')):
-                pt.save_match(match_align, midi_ppart, score_part, out=fp, performer = f'Pianist {perf_i+1:02d}', composer='Frèdéryk Chopin', piece=piece, score_filename=f'{piece}.musicxml', performance_filename = f'{piece}_p{perf_i+1:02d}.mid', assume_unfolded=True)
-                pd.DataFrame(match_align).to_csv(os.path.join(upd_match_align_dir, f'{piece}_{perf_i+1:02d}.csv'), index=None)
-            # parangonar test
-            pa_update_csv = os.path.join(upd_parangonar_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
-            pred_alignment = test_parangonar_wrapper(sdm, sna, midi_pna)    
-            pd.DataFrame(pred_alignment).to_csv(pa_update_csv, index=None)
+            if not os.path.isfile(os.path.join(upd_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')):
+                # pt.save_match(match_align, midi_ppart, score_part, out=fp, performer = f'Pianist {perf_i+1:02d}', composer='Frèdéryk Chopin', piece=piece, score_filename=f'{piece}.musicxml', performance_filename = f'{piece}_p{perf_i+1:02d}.mid', assume_unfolded=True)
+                pd.DataFrame(match_align).to_csv(os.path.join(upd_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv'), index=None)
+            # # parangonar test
+            # pa_update_csv = os.path.join(upd_parangonar_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
+            # pred_alignment = test_parangonar_wrapper(sdm, sna, midi_pna)    
+            # pd.DataFrame(pred_alignment).to_csv(pa_update_csv, index=None)
         
         elif piece == 'Chopin_op10_no3':
             # TODO fix for B3.
-            if not os.path.isfile(os.path.join(upd_match_align_dir, f'{piece}_{perf_i+1:02d}.csv')):
-                pt.save_match(match_align, midi_ppart, score_part, out=fp, performer = f'Pianist {perf_i+1:02d}', composer='Frèdéryk Chopin', piece=piece, score_filename=f'{piece}.musicxml', performance_filename = f'{piece}_p{perf_i+1:02d}.mid', assume_unfolded=True)
-                pd.DataFrame(match_align).to_csv(os.path.join(upd_match_align_dir, f'{piece}_{perf_i+1:02d}.csv'), index=None)
-            # parangonar test
-            pa_update_csv = os.path.join(upd_parangonar_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
-            pred_alignment = test_parangonar_wrapper(sdm, sna, midi_pna)    
-            pd.DataFrame(pred_alignment).to_csv(pa_update_csv, index=None)
+            if not os.path.isfile(os.path.join(upd_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')):
+                # pt.save_match(match_align, midi_ppart, score_part, out=fp, performer = f'Pianist {perf_i+1:02d}', composer='Frèdéryk Chopin', piece=piece, score_filename=f'{piece}.musicxml', performance_filename = f'{piece}_p{perf_i+1:02d}.mid', assume_unfolded=True)
+                pd.DataFrame(match_align).to_csv(os.path.join(upd_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv'), index=None)
+            # # parangonar test
+            # pa_update_csv = os.path.join(upd_parangonar_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
+            # pred_alignment = test_parangonar_wrapper(sdm, sna, midi_pna)    
+            # pd.DataFrame(pred_alignment).to_csv(pa_update_csv, index=None)
         
         
         elif piece == 'Mozart_K331_1st-mov':
-            if not os.path.isfile(os.path.join(upd_match_align_dir, f'{piece}_{perf_i+1:02d}.csv')):
-                pt.save_match(match_align, midi_ppart, score_part, out=fp, performer = f'Pianist {perf_i+1:02d}', composer='W. A. Mozart', piece=piece, score_filename=f'{piece}.musicxml', performance_filename = f'{piece}_p{perf_i+1:02d}.mid', assume_unfolded=True)
-                pd.DataFrame(match_align).to_csv(os.path.join(upd_match_align_dir, f'{piece}_{perf_i+1:02d}.csv'), index=None)
-            # parangonar test
-            pa_update_csv = os.path.join(upd_parangonar_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
-            pred_alignment = test_parangonar_wrapper(sdm, sna, midi_pna)    
-            pd.DataFrame(pred_alignment).to_csv(pa_update_csv, index=None)
+            if not os.path.isfile(os.path.join(upd_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')):
+                # pt.save_match(match_align, midi_ppart, score_part, out=fp, performer = f'Pianist {perf_i+1:02d}', composer='W. A. Mozart', piece=piece, score_filename=f'{piece}.musicxml', performance_filename = f'{piece}_p{perf_i+1:02d}.mid', assume_unfolded=True)
+                pd.DataFrame(match_align).to_csv(os.path.join(upd_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv'), index=None)
+            # # parangonar test
+            # pa_update_csv = os.path.join(upd_parangonar_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
+            # pred_alignment = test_parangonar_wrapper(sdm, sna, midi_pna)    
+            # pd.DataFrame(pred_alignment).to_csv(pa_update_csv, index=None)
         
         
         elif piece == 'Schubert_D783_no15':
-            if not os.path.isfile(os.path.join(upd_match_align_dir, f'{piece}_{perf_i+1:02d}.csv')):
-                pt.save_match(match_align, midi_ppart, score_part, out=fp, performer = f'Pianist {perf_i+1:02d}', composer='Franz Schubert', piece=piece, score_filename=f'{piece}.musicxml', performance_filename = f'{piece}_p{perf_i+1:02d}.mid', assume_unfolded=True)
-                pd.DataFrame(match_align).to_csv(os.path.join(upd_match_align_dir, f'{piece}_{perf_i+1:02d}.csv'), index=None)
-            # parangonar test
-            pa_update_csv = os.path.join(upd_parangonar_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
-            pred_alignment = test_parangonar_wrapper(sdm, sna, midi_pna)    
-            pd.DataFrame(pred_alignment).to_csv(pa_update_csv, index=None)
+            if not os.path.isfile(os.path.join(upd_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')):
+                # pt.save_match(match_align, midi_ppart, score_part, out=fp, performer = f'Pianist {perf_i+1:02d}', composer='Franz Schubert', piece=piece, score_filename=f'{piece}.musicxml', performance_filename = f'{piece}_p{perf_i+1:02d}.mid', assume_unfolded=True)
+                pd.DataFrame(match_align).to_csv(os.path.join(upd_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv'), index=None)
+            # # parangonar test
+            # pa_update_csv = os.path.join(upd_parangonar_match_align_dir, f'{piece}_p{perf_i+1:02d}.csv')
+            # pred_alignment = test_parangonar_wrapper(sdm, sna, midi_pna)    
+            # pd.DataFrame(pred_alignment).to_csv(pa_update_csv, index=None)
         print()
         
     match_avg_f_score = np.mean(match_parangonar_f_scores[:,0])
