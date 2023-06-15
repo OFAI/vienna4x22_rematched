@@ -1,0 +1,10 @@
+------------------
+Evaluate  match
+Precision:  0.953 Recall  0.903 F-Score  0.927
+------------------
+Evaluate  insertion
+Precision:  0.152 Recall  0.625 F-Score  0.244
+------------------
+Evaluate  deletion
+Precision:  0.091 Recall  0.375 F-Score  0.146
+------------------

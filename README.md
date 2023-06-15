@@ -8,7 +8,7 @@ The match version of files is 1.0.0
 
 ## Contents
 
-This dataset includes 22 performances by profesional pianists of 4 classical music excerpts.
+This dataset includes 22 performances by professional pianists of 4 classical music excerpts.
 
 1. Chopin, op. 38, measures 1-46
 2. Chopin, op. 10, measures 1-22
