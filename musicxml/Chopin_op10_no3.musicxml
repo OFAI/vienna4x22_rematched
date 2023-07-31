@@ -247,10 +247,10 @@
           <step>E</step>
           <octave>2</octave>
         </pitch>
-	<duration>4</duration>
-	<voice>4</voice>
-	<type>16th</type>
-	<staff>2</staff>
+      <duration>4</duration>
+      <voice>4</voice>
+      <type>16th</type>
+      <staff>2</staff>
       </note>
       <note id="n6">
         <pitch>
